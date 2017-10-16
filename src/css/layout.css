@@ -1,0 +1,99 @@
+a{
+    text-decoration:none;
+}
+.clear{
+    clear: both;
+}
+
+.ant-layout-sider-trigger{
+    font-size:16px;
+}
+ .logo {
+    height: 32px;
+    margin:20px 16px;
+    width:200px;
+}
+.logo > .logo_icon{
+    float:left;
+    width:50px;
+    height:30px;
+    -webkit-transition:all 1s;
+    -moz-transition:all 1s;
+    -o-transition:all 1s;
+    -ms-transition:all 1s;
+    transition:all 1s;
+}
+.logo > .logo_icon:hover {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+.logo > .logo_name{
+    margin-left:60px;
+    font-size:16px;
+    color:white;
+    font-style:normal;
+    font-weight:normal;
+}
+.help_doc{
+    position:absolute;
+    right:138px;
+    top:0px;
+    font-size:14px;
+    text-align:center;
+    width:136px;
+    height:64px;
+}
+.help_doc a{
+    text-decoration:none;
+}
+.help_doc  span{
+    margin-left:6px;
+}
+.login_btn{
+    position:absolute;
+    right:0px;
+    top:0px;
+    text-align:center;
+    font-size:14px;
+    color:white;
+    width:136px;
+    height:64px;
+}
+.login_btn  span{
+    margin-left:6px;
+}
+.header li.header_help:hover .help_doc{
+    background:rgba(0,0,0,0.1);
+}
+.header li.header_login:hover .login_btn{
+    background:rgba(0,0,0,0.1);
+}
+.header .icon{
+    font-size:15px;
+}
+
+.iframe > .fullscreen {
+    position:absolute;
+    left:200px;
+    top:0;
+    width:272px;
+    height:64px;
+    font-size:14px;
+    color:white;
+}
+.iframe > .fullscreen > ul > li{
+    float:left;
+    text-align:center;
+    width:136px;
+    height:64px;
+    padding-top:23px;
+}
+.iframe > .fullscreen > ul > li.enter_full:hover{
+    background:rgba(0,0,0,0.1);
+}
+.iframe > .fullscreen > ul > li.exit_full:hover{
+    background:rgba(0,0,0,0.1);
+}
